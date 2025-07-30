@@ -46,7 +46,7 @@ pip install pyperclip
 ## ▶️ Running the App
 
 ```bash
-python pass_gen.py
+python password_generator_gui.py
 ```
 
 ---
@@ -56,7 +56,7 @@ python pass_gen.py
 1. Open Command Prompt
 2. Navigate to your script folder:
 ```bash
-cd "D:\VS Code\Cod_Soft\password generator"
+cd "D:\VS Code\Cod_Soft\password_generator_gui.py"
 ```
 3. Run PyInstaller:
 ```bash
@@ -71,12 +71,12 @@ pyinstaller --onefile --windowed pass_gen.py
 ```
 password-generator/
 │
-├── pass_gen.py            # Main Python script
-├── passwords.csv          # Auto-generated password store
-├── README.md              # This file
-├── screenshot.png         # UI screenshot (optional)
+├── password_generator_gui.py           # Main Python script
+├── passwords.csv                       # Auto-generated password store
+├── README.md                           # This file
+├── screenshot.png                      # UI screenshot (optional)
 └── dist/
-    └── pass_gen.exe       # Final executable (after build)
+    └── password_generator_gui.exe      # Final executable (after build)
 ```
 
 ---
