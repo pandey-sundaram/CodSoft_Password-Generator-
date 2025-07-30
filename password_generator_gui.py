@@ -19,7 +19,7 @@ current_theme = 'dark'
 
 # Main window
 root = tk.Tk()
-root.title("Advanced Password Generator")
+root.title("Sundaram's Password Generator")
 root.geometry("400x500")
 root.config(bg=themes[current_theme]['bg'])
 
